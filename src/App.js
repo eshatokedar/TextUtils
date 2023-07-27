@@ -1,5 +1,5 @@
 import './App.css';
-import Navebar from './components/Navebar';
+import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
 import React,{useState} from 'react';
 
@@ -7,7 +7,7 @@ function App() {
   
   return (
     <>
-    <Navebar title="TextUtils" mode={mode} togglemode={togglemode}/>
+    <Navbar title="TextUtils--convert your text here!" />
     <div class="container my-5">
     <TextForm heading="Enter text :)"/>
     </div>
