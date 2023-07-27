@@ -5,15 +5,6 @@ import React,{useState} from 'react';
 
 function App() {
   
-  const[mode,setMode]= useState('light'); //whether dark mode is enabled or not.
-  const togglemode=()=>{
-    if(mode==='light'){
-      setMode('dark');
-    }
-    if(mode==='dark'){
-      setMode('light');
-    }
-  }
   return (
     <>
     <Navebar title="TextUtils" mode={mode} togglemode={togglemode}/>
